@@ -1,0 +1,83 @@
+header{
+    display: flex;
+    text-align: center;
+    width: 1828px;
+    height: 115px;
+    margin-left: 46px;
+}
+
+header ul {
+    display: inline-block;
+    justify-content: space-between;
+    width: 347.61px;
+    height: 115px;
+    margin-left: 740.19px;
+}
+nav ul li {
+    list-style: none;
+    text-align: center;
+   }
+header nav ul{
+    display: flex;
+    text-align: center;
+}
+
+header nav li{
+    display: inline-block;
+}
+header nav li a{
+    text-decoration: none;
+    color: black;
+}
+.homes{
+    width: 48px;
+    height: 22px;
+    top: 46px;
+    padding: 0px, 0px, 1px, 0px;
+}
+.pages{
+    width: 40px;
+    height: 21px;
+    top: 46px;
+    left: 83.08px;
+    font: Lato;
+    font-weight: 700;
+    size: 15px;
+    line-height: 21px;
+}
+.podcast{
+    width: 54px;
+    height: 21px;
+    top: 46px;
+    left: 158.27px;
+}
+.blog{
+    width: 31px;
+    height: 21px;
+    top: 46px;
+    left: 247.88px;
+}
+.shop{
+    width: 34px;
+    height: 21px;
+    top: 46px;
+    left: 314.02px;
+}
+header img{
+    width: 131,81px;
+    height: 19.98px;
+    margin-top: 47.51px;
+}
+.search{
+    width: 67px;
+    height: 23px;
+    margin-top: 46px;
+    padding: 0px, 0px, 2px,0px;
+    gap: 6px;
+    text-decoration: none;
+    float: right;
+}
+.spanimg{
+    width: 25px;
+    height: 25px;
+}
