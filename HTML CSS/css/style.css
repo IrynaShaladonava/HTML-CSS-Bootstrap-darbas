@@ -1,0 +1,339 @@
+
+/* Header */
+header{
+    background-image: url(../img/new\ episode.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    padding: 20px;
+    
+}
+/* First container */
+.container_first{
+    display: flex;
+    height: 217px;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 215px;
+}
+/* First container text */
+.container_first h1{
+    color: #000;
+    font-family: Lato;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 103px;    
+}
+/* @media (max-width: 576px){
+    .container_first h1{
+        font-size: 50px;
+    }
+} */
+/* Navigacija */
+.nav-link{   
+    color: #000;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 15px;
+    font-style: normal;    
+}
+.nav-link:hover{
+    text-decoration: underline;
+    color: #000;
+}
+/* Buttons listen */
+.Listen_buttons{
+    display: flex;
+    justify-content: flex-start;
+}
+.Listen_buttons-txt{
+    display: flex;
+    justify-content: space-around;
+}
+.Listen_buttons-txt p{
+    padding-bottom: 15px;
+}
+.Listen_buttons-txt i{
+    padding: 5px;
+}
+.Listen_buttons i{
+    font-size: 30px;
+}
+.btn{
+    background-color: #000;
+    border-color: #000;
+    border-radius: 300px;
+    height: 54px;
+    width: 185px;
+}
+/* Best places */
+.container-second{
+    display: flex;    
+    padding-top: 150px ;   
+    padding-bottom: 100px;
+}
+.container-second h3{
+    padding-top: 20px;
+    color: #000;
+    font-family: Lato;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.container-second p{
+    color: #000;
+    font-family: Lato;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.container-second a{
+    text-decoration: none;
+    color: #000;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+.container-second a i{
+    padding-left: 10px;
+}
+/* Essential episodes */
+.essential-episodes .card-body{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+/* Timmy Mike container (up) */
+.third{
+    margin-top: -150px;   
+}
+/* Timmy Mike tekstas */
+.container-third h5{
+    padding-top: 30px;
+}
+.container-third p{
+    padding-top: 10px;
+}
+/* Audio elements Timmy */
+.timmyaudio {
+    height: 35px;
+    padding-top: 10px;    
+}
+.timmyaudio .img-timeslider{
+    width: 80%;
+    align-content: end;
+    margin-top: 20px;
+}
+.timmyaudio svg{
+    margin-top: 20px;
+}
+.timmyaudio .length{
+    margin-top: 10px;
+    
+}
+.Timmy-h5{
+    display: flex;
+    justify-content: space-between;
+}
+.Timmy-h5 h5{
+    color: #000;
+    font-family: Lato;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44.08px; /* 116% */
+}
+.Timmy-h5 a{
+    padding-top: 50px;
+    text-decoration: none;
+    color: #000;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 200% */
+}
+.Timmy-h5 i{ 
+    padding-left: 5px;
+}
+/* Slider elements */
+.slider{
+    margin-top: 50px;
+    height: 482.5px;
+}
+.slide-img-first{
+    size: 40%;
+}
+.slider .card-body{
+    flex-direction: column;
+}
+section h3{
+    text-align: center;
+}
+section p{
+    text-align: center;
+}
+/* Top podcasts element */
+.top-podcasts{
+    padding-top: 20px;
+    background-color: #f8f8f8;
+    height:500px;
+    /* width: 100%; */
+    margin-bottom: 107px;
+}
+/* Essential episodes element */
+.essential-episodes{
+    display: flex;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.essential-episodes-h3{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.essential-episodes-h3 a{
+    text-decoration: none;
+    color: #000;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+.essential-episodes-h3 i{
+    padding-left: 5px;
+}
+.sec-essent{
+    display: flex;
+}
+/* Video element */
+.video-section{
+    background-image: url(../img/h1-video-paralax-img-2048x758.jpg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 710px;
+    padding: 100px;
+}
+.video-section .btn-first{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    border: none;
+    color:white;
+    font-size: 60px;
+    background: none;
+    height: 54px;
+    width: 185px;
+}
+/* Meet hosts element */
+.meet_hosts{
+    padding-top: 50px;
+}
+.meet_hosts-h3{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec-meet{
+    display: flex;
+}
+.meet_hosts-h3 a{
+    text-decoration: none;
+    color: #000;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+.meet_hosts-h3 i{
+    padding-left: 5px;
+}
+.meet_hosts i{
+    font-size: 20px;
+}
+/* Footer */
+footer{
+    background-color: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-top: 100px;
+   
+}
+.foot{
+    padding-top: 100px;
+    font-family: lato;
+    color: #FFF;
+}
+.foot-second{
+    display: flex;
+    padding-top: 100px;
+}
+.foot-second p{
+    color: #969696;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23.04px; /* 128% */
+}
+.foot-second a{
+    text-decoration: none;
+    color: #CCC;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.67px; /* 159% */
+}
+.foot-second i{
+    padding-right: 10px;
+}
+.foot-second .rights{
+    text-decoration: none;
+    color: #CCC;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.67px; 
+}
+/* Hearphones element */
+.fa-headphones{
+    text-align: center;
+    padding-top: 10px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+}
+/* @media (max-width: 768px){
+    .header{
+        width: 100%;
+    } 
+} */
+
+
+    
+
+
+    
+   
+
+
+
+
+
+
